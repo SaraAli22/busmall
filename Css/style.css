@@ -1,34 +1,54 @@
-* {
-    box-sizing: border-box;
-  }
-  h1 {
-    text-align: center;
-  }
-  img {
-    display: block;
-    width: 150px;
-    float: left;
-    height: 150px;
-    border: 3px solid palevioletred;
-  }
-  #image-container {
-    padding-left: 200px;
-    border: 3px solid rebeccapurple;
-    width: 1000px;
-    margin: 0 auto;
-    height: 175px;
-  }
-  #leftImg,
-  #rightImg,
-  #midImg {
-    width: 200px;
-    margin: 10px;
-    border-radius: 10px;
-  }
-  span {
-    margin-left: 50px;
-  }
-  #attempts {
-    margin-left: 20px;
-    font-size: 30px;
-  }
+{
+  box-sizing: border-box;
+  box-shadow: papayawhip;
+}
+h1 {
+  background-color: peru;
+  text-align: center;
+  text-shadow: saddlebrown;
+
+}
+img {
+  display: block;
+  width: 150px;
+  float: left;
+  height: 150px;
+  border: 3px solid palevioletred;
+  background-color: seagreen;
+}
+#image-container {
+  padding-left: 200px;
+  border: 3px solid rebeccapurple;
+  width: 1000px;
+  margin: 0 auto;
+  height: 175px;
+}
+
+#rightImg,
+#leftImg,
+
+#midImg {
+  width: 200px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+span {
+  margin-left: 50px;
+}
+#attempts {
+  margin-left: 20px;
+
+  font-size: 30px;
+}
+button {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+body {
+background-color: peachpuff;
+}
