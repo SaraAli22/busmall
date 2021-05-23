@@ -131,9 +131,9 @@ function handelClicks(event) {
     rightImgEl.removeEventListener('click', handelClicks);
 
 
-    result1.appendChild(button1);
-    button1.textContent = 'click hear';
-    button1.addEventListener('click', result);
+    result1.appendChild(button);
+    button.textContent = 'click hear';
+    button.addEventListener('click', result);
 
    
     
